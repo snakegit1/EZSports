@@ -1,0 +1,34 @@
+development:
+  username: 1100172246
+  password: 4B82ED7F82AF8EB9
+  version: 1.0
+  endpoint: https://development.avalara.net
+  company_code: E-SI
+  originating_zip: 27701
+demo:
+  username: 1100172246
+  password: 4B82ED7F82AF8EB9
+  version: 1.0
+  endpoint: https://development.avalara.net
+  company_code: E-SI
+  originating_zip: 27701
+test:
+  username: 1100172246
+  password: 4B82ED7F82AF8EB9
+  version: 1.0
+  endpoint: https://development.avalara.net
+  company_code: E-SI
+  originating_zip: 27610
+production:
+  username: 1100101604
+  password: 85CA6BA26155563E
+  version: 1.0
+  endpoint: https://avatax.avalara.net/
+  company_code: E-SI
+  originating_zip: 27610
+
+# account_number: "1100172246"
+# license_key: "4B82ED7F82AF8EB9"
+# service_url: "https://development.avalara.net"
+# company_code: "E-SI"
+# originating_zip: "27610"

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  league_id: 
+  amount: 
+  process_date: 2016-06-23 18:55:38
+
+two:
+  league_id: 
+  amount: 
+  process_date: 2016-06-23 18:55:38

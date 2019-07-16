@@ -1,0 +1,17 @@
+<%= render 'signup_mailer/signup_header' %>
+<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;"
+align="left" valign="top">
+
+  <h3 style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 1.3; word-break: normal; font-size: 40px; margin: 0; padding: 0;" align="left">Hi,
+    <%= @first %>!</h3>
+  <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">Welcome to EZ Sports. We are happy to have you on our team.</p>
+  <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;"
+  align="left">As a reminder, the email address you use for signing in is:
+    <%= @email %>.</p>
+  <p style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0 0 10px; padding: 0;" align="left">
+      Next, you should either create a league or join a league. Other league managers may also invite you to join their leagues.
+      If you have any questions, email us at <a href="mailto:support@ez4mysports.com" style="text-decoration: none;">support@ez4mysports.com</a>.
+      Thanks for joining EZ Sports!</p>
+</td>
+
+<%= render 'signup_mailer/signup_footer' %>

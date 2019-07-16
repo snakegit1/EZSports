@@ -1,0 +1,21 @@
+development:
+  username:
+  password:
+  version: 1.0
+  endpoint: https://development.avalara.net/
+  company_code: APITrialCompany
+  originating_zip: 27701
+test:
+  username:
+  password:
+  version: 1.0
+  endpoint: https://development.avalara.net/
+  company_code:
+  originating_zip:
+production:
+  username:
+  password:
+  version: 1.0
+  endpoint: https://development.avalara.net/
+  company_code:
+  originating_zip:

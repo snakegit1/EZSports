@@ -1,0 +1,27 @@
+<%= render 'signup_mailer/signup_header' %>
+
+<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;"
+align="left" valign="top">
+  <h3 style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 1.3; word-break: normal; font-size: 40px; margin: 0; padding: 0;" align="left">
+      Hi, <%= @first %>!
+  </h3>
+  <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">
+      Welcome to EZ Sports. The League Manager of <%=@league%> has signed you up for an account.
+  </p>
+  <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">
+      The email address you will use for signing in is:
+      <%= @email %>. Your temporary password is: <%= @password %>.
+  </p>
+  <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">
+      <a href="<%=@link%>">Please click here to complete your registration.</a>
+  </p>
+  <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">
+      Once your registration is completed, you will be able to <a href="https://admin.ez4mysports.com">start your own league</a> or join other leagues. Other league managers may also invite you to join their leagues.
+  </p>
+  <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">
+      If you have any questions, please check out our website at <a href="https://www.ez4mysports.com" style="text-decoration: none;">www.ez4mysports.com</a>,
+      or feel free to contact us at <a href="mailto:support@ez4mysports.com">support@ez4mysports.com</a>. Thanks for joining EZ Sports!
+  </p>
+</td>
+
+<%= render 'signup_mailer/signup_footer' %>

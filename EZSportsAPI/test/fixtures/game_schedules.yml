@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  home_id: 1
+  away_id: 1
+  venue_id: 1
+  time: 2015-06-12 06:01:27
+
+two:
+  home_id: 1
+  away_id: 1
+  venue_id: 1
+  time: 2015-06-12 06:01:27
